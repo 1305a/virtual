@@ -48,7 +48,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .register {
@@ -229,8 +228,18 @@ body {
     padding-top: 18px;
 }
 
-/* @media  (max-width: 980px) {
+@media  (max-width: 980px) {
+    .main-wrapper {
+        width: 560px;
+        padding-top: 75px;
+    }
     .form-wrapper {
         flex-wrap: wrap;
     }
-} */
+    .notregister {
+        margin-top: 30px;
+    }
+    .footer-wrapper {
+         width: 560px;
+    }
+}
