@@ -230,7 +230,7 @@ body {
 
 @media  (max-width: 980px) {
     .main-wrapper {
-        width: 560px;
+        width: 460px;
         padding-top: 75px;
     }
     .form-wrapper {
@@ -240,6 +240,14 @@ body {
         margin-top: 30px;
     }
     .footer-wrapper {
-         width: 560px;
+         width: 460px;
+    }
+    .register {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .notregister {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
