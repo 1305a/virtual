@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+}
+
+.text-blue {
+    color: #274470;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.text-white {
+    color: #ffffff;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.maincover {
+    background-image: url(images/blur-hospital-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1160px;
+    padding-top: 188px;
+    padding-bottom: 111px;
+}
+
+.heading-wrapper {
+    width: 100%;
+}
+
+.heading-text {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.heaading {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.register {
+    width: 400px;
+    height: 300px;
+    background-color: #274470;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.register-label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 1.55;
+}
+
+.register-input-login {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    margin-bottom: 12px;
+}
+
+.register-input-password {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    margin-bottom: 18px;
+}
+
+.register-button-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.register-button-signin {
+    width: 188px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 500;
+    border-width: 1px;
+    border-radius: 5px;
+    border: 1px solid #c4dbff;
+    background-color: #c4dbff;
+}
+
+.register-button-signup {
+    width: 188px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #274470;
+}
+
+.register-forget{
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.register-attention {
+    border-top: 1px solid #ffffff;
+    padding-top: 30px;
+    color: #fcfcfc;
+    font-size: 12px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.notregister {
+    width: 440px;
+    height: 260px;
+    border: 2px solid #274470;
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding: 58px;
+}
+
+.notregister-heading {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.notregister-text {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 400;
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+
+.notregister-list {
+    display: flex;
+}
+
+.notregister-split {
+    width: 50%;
+}
+
+.notregister-list-item {
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 45px;
+    height: 45px;
+    position: relative;
+    cursor: pointer;
+}
+
+.notregister-list-item::before {
+    content: "";
+    border-radius: 50%;
+    border: 2px solid #274470;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+}
+
+.notregister-list-item:hover::after {
+    content: "";
+    border-radius: 50%;
+    background-color: #dc0c15;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+
+.footer-wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 1160px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.footer-split {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link-mail {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo-wrapper {
+    height: 33px;
+    background: url(images/mpro_logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-company {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 18px;
+}
+
+/* @media  (max-width: 980px) {
+    .form-wrapper {
+        flex-wrap: wrap;
+    }
+} */
